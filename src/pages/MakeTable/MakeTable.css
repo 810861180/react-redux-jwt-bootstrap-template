@@ -1,0 +1,26 @@
+.select-table{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.table-main{
+    height: 200px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.choosableTab{
+    background: green;
+}
+.disableTab{
+    background: red;
+}
+.tables{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
